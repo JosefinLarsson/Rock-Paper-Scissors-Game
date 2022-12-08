@@ -1,0 +1,16 @@
+/* --------- Global style */
+
+body {
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* --------- Heading */
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
