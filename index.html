@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,51 +9,61 @@
     <meta name="keywords" content="game, classic game, simple game, 'rock, paper, scissors'">
 
     <!--google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
 
-    <link rel ="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock, Paper, Scissors!</title>
 </head>
+
 <body>
-    <header id="heading">
-        <h1 >Rock, Paper, Scissors</h1>
+
+    <header>
+        <h1>Rock, Paper, Scissors</h1>
     </header>
-<div id="game-area">
-    <h2>Make your choice:</h2>
-    <div id="button-area">
-        <button class="button">Rock</button>
-        <button class="button">Paper</button>
-        <button class="button">Scissors</button>
-    </div>
-    <div id="result-alert">Result alert</div>
 
-    <div class="score-area">
-        <p id="your-score-text">Your score <span id="your-score-num">0</span></p>
-        <p id="computer-score-text">Computer score <span id="computer-score-num">0</span></p>
-    </div>
-
-    <div id="userbox">
-       <div> 
-        <img  id="user-image" src="assets/images/starter-image-1.jpg">
-    </div>
-
-     </div>
-    <div id="computerbox">
-        <div>
-            <img id="computer-image" src="assets/images/starter-image-2.jpg">
+    <section id="game-area1">
+        <h2>Make your choice:</h2>
+        <div id="button-area">
+            <button class="button">Rock</button>
+            <button class="button">Paper</button>
+            <button class="button">Scissors</button>
+        </div>
+        <div id="result-alert">
+            Result alert
         </div>
 
-    </div>
+        <div class="score-area">
+            <p id="your-score-text">Your score <span id="your-score-num">0</span></p>
+            <p id="computer-score-text">Computer score <span id="computer-score-num">0</span></p>
+        </div>
+    </section>
 
-</div>
+
+    <section id="game-area2">
+        <div id="userbox">
+            <img id="user-image" src="assets/images/starter-image-1.jpg">
+        </div>
+
+        <div id="computerbox">
+            <img id="computer-image" src="assets/images/starter-image-2.jpg">
+        </div>
+    </section>
 
 
 
-<footer id="footer">
-    <h3>Rules of the Game:</h3>
-    <p>Rock beats scissors; paper beats rock; and scissors beat paper.</p>
-    <p id="copyright">&copy; Copyright 2022 Josefin Larsson</p>
-</footer>
+
+    <footer id="footer">
+        <h3>Rules of the Game:</h3>
+        <p>Rock beats scissors; paper beats rock; and scissors beat paper.</p>
+        <p id="copyright">&copy; Copyright 2022 Josefin Larsson</p>
+    </footer>
+
+
+
     <script src="assets/js/script.js"></script>
+
 </body>
+
 </html>
