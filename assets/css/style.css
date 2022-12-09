@@ -21,17 +21,41 @@ body {
     color: blue;
 }
 
+/*------------scores */
+
+#your-score {
+    float: left;
+}
+
+#computer-score {
+    float: right;
+}
 /*------------game area */
+
+
+#game-area {
+
+}
 
 #userbox {
     float: left;
-    background-color: red;
-}
-#computerbox {
-    background-color: green;
-    float: right;
+
+    width: 45%;
 }
 
+#user-image {
+width: 75%;
+border: 5px;
+}
+#computerbox {
+    float: right;
+    width: 45%;
+}
+
+#computer-image {
+    width: 75%;
+    border: 1px;
+}
 /*------------footer */
 #footer {
     position: fixed;
