@@ -34,18 +34,19 @@ header {
 
 
 .button {
-    border-radius: 2px;
-    background-color: #D8DBE2;
+    border-radius: 3px;
     font-family: 'Nunito', sans-serif;
     font-size: large;
     display:inline-block;
     margin: 2px;
     width: 80px;
     height: 40px;
+    cursor: pointer;
 }
 
 
 #result-alert {
+    padding:5px;
  height: 20px;
 }
 
