@@ -1,26 +1,30 @@
 /* --------- Global style */
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
     background-color: ##EEEEEE;
     font-family: 'Nunito', sans-serif;
     color: black;
     text-align: center;
+    margin: 0;
 }
 
 /* --------- Heading */
 
 header {
     text-align: center;
-    background-color: aqua;
-    max-height: 50px;
+    height: 50px;
 }
 
 
-/*------------game area1 section */
+/*------------game area */
 
 
-#game-area1 {
-    background-color: yellow;
+#game-area {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -34,57 +38,65 @@ header {
     background-color: #D8DBE2;
     font-family: 'Nunito', sans-serif;
     font-size: large;
+    display:inline-block;
+    margin: 2px;
+    width: 80px;
+    height: 40px;
 }
 
 
-#your-score {}
-
-#computer-score {}
-
-/*------------game area2 section */
-
-#game-area2 {
-    background-color: green;
-    width: 75%;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    
-    
+#result-alert {
+ height: 20px;
 }
 
-#userbox {
-    float: left;
-    background-color: blueviolet;
-
-    width: 45%;
+.user {
+background-color:#d6d6d6;
+float: left;
+width: 45%;
 }
 
 #user-image {
     width: 75%;
-    border-style: double;
 }
 
-#computerbox {
+.computer {
+    background-color: #d6d6d6;
     float: right;
-    background-color: brown;
     width: 45%;
 }
 
 #computer-image {
     width: 75%;
-    border-style: double;
 }
+
+
+
+.scores {
+
+}
+
+#user-score {
+
+}
+
+#computer-score {
+
+}
+
+
 
 /*------------footer */
 
 #footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    height: 130px;
-    background-color: red;
+    left: 0;
+    background-color: #bebebe;
     width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 5px;
+    min-height: 80px;
 
 }
 
