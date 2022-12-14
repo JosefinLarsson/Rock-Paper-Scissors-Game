@@ -8,8 +8,9 @@ const userScore = document.getElementById("user-score");
 const computerScore = document.getElementById("computer-score");
 const userImage = document.getElementById("user-image");
 const computerImage = document.getElementById("computer-image");
-const resultAlert = document.getElementById("result-alert");
+const resultMessage = document.getElementById("result-message");
 const choices = ["rock", "paper", "scissors"];
+
 
 
 
@@ -44,12 +45,50 @@ function playGame(userChoice) {
 }
     
 
-function checkWinner() {
 
+
+// /**
+//  * The check winner function
+//  * compares all different scenarios and decides and alerts the winner via on screen text
+//  */
+
+
+function checkWinner(computerChoice, userChoice) {
+
+    if (computerChoice === "rock]" && userChoice ==="paper") {
+        resultMessage.textContent = "You win!";
+        return;
+    };
+    if (computerChoice === "rock" && userChoice ==="scissors") {
+        resultMessage.textContent = "You lose!";
+        return;
+    };
+    if (computerChoice === "paper" && userChoice ==="rock") {
+        resultMessage.textContent = "You lose!";
+        return;
+    };
+    if (computerChoice === "paper" && userChoice ==="scissors") {
+        resultMessage.textContent = "You win!";
+        return;
+    };
+    if (computerChoice === "scissors" && userChoice ==="rock") {
+        resultMessage.textContent = "You win!";
+        return;
+    };
+    if (computerChoice === "scissors" && userChoice ==="paper") {
+        resultMessage.textContent = "You lose!";
+        return;
+    };
+    if (computerChoice === userChoice) {
+        resultMessage.textContent = "Let's call it a tie!";
+        return;
+    }
 }
 
+
+
 function updateScores() {
-    
+
 }
 
 

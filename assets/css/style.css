@@ -40,12 +40,14 @@ header {
     margin: 2px;
     width: 80px;
     height: 40px;
-    cursor: pointer;
+    cursor: pointer; /*----------this line of code was borrowed from the Youtube channel developedbyed*/
+
 }
 
-#result-alert {
+#result-message {
     padding: 10px;
     height: 20px;
+    font-size:x-large;
 }
 
 .user {
