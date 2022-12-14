@@ -40,6 +40,7 @@ header {
     margin: 2px;
     width: 80px;
     height: 40px;
+    background-color: #bebebe;;
     cursor: pointer; /*----------this line of code was borrowed from the Youtube channel developedbyed*/
 
 }

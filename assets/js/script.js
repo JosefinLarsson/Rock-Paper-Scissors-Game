@@ -55,27 +55,27 @@ function playGame(userChoice) {
 
 function checkWinner(computerChoice, userChoice) {
 
-    if (computerChoice === "rock]" && userChoice ==="paper") {
+    if (computerChoice === "rock" && userChoice === "paper") {
         resultMessage.textContent = "You win!";
         return;
     };
-    if (computerChoice === "rock" && userChoice ==="scissors") {
+    if (computerChoice === "rock" && userChoice === "scissors") {
         resultMessage.textContent = "You lose!";
         return;
     };
-    if (computerChoice === "paper" && userChoice ==="rock") {
+    if (computerChoice === "paper" && userChoice === "rock") {
         resultMessage.textContent = "You lose!";
         return;
     };
-    if (computerChoice === "paper" && userChoice ==="scissors") {
+    if (computerChoice === "paper" && userChoice === "scissors") {
         resultMessage.textContent = "You win!";
         return;
     };
-    if (computerChoice === "scissors" && userChoice ==="rock") {
+    if (computerChoice === "scissors" && userChoice === "rock") {
         resultMessage.textContent = "You win!";
         return;
     };
-    if (computerChoice === "scissors" && userChoice ==="paper") {
+    if (computerChoice === "scissors" && userChoice === "paper") {
         resultMessage.textContent = "You lose!";
         return;
     };
@@ -87,9 +87,7 @@ function checkWinner(computerChoice, userChoice) {
 
 
 
-function updateScores() {
 
-}
 
 
 
