@@ -17,43 +17,41 @@ body {
 
 header {
     text-align: center;
-    height: 50px;
+    height: 40px;
 }
 
 
 /*------------game area */
 
 
-#game-area {
+.game-area {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
+    margin-top: 2%;
     text-align: center;
 }
 
-
-.button {
-    border-radius: 3px;
+.control {
+    border-radius: 4px;
     font-family: 'Nunito', sans-serif;
     font-size: large;
-    display:inline-block;
+    display: inline-block;
     margin: 2px;
     width: 80px;
     height: 40px;
     cursor: pointer;
 }
 
-
 #result-alert {
-    padding:5px;
- height: 20px;
+    padding: 10px;
+    height: 20px;
 }
 
 .user {
-background-color:#d6d6d6;
-float: left;
-width: 45%;
+    background-color: #C1E1C1;
+    float: left;
+    width: 45%;
 }
 
 #user-image {
@@ -61,7 +59,7 @@ width: 45%;
 }
 
 .computer {
-    background-color: #d6d6d6;
+    background-color: #FAA0A0;
     float: right;
     width: 45%;
 }
@@ -72,17 +70,11 @@ width: 45%;
 
 
 
-.scores {
+.scores {}
 
-}
+#user-score {}
 
-#user-score {
-
-}
-
-#computer-score {
-
-}
+#computer-score {}
 
 
 
@@ -96,8 +88,8 @@ width: 45%;
     width: 100%;
     box-sizing: border-box;
     text-align: center;
-    padding-top: 5px;
-    min-height: 80px;
+    padding-top: 2px;
+    min-height: 70px;
 
 }
 
