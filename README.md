@@ -14,7 +14,7 @@ The website is targeted against a wide range of users from all ages to provide a
 
 ## Target Audience
 <li>People of all ages who are interested in playing the classic game for a couple of minutes of entertainment.</li>
-
+<br>
 
 # Features
 
@@ -52,7 +52,7 @@ The website is targeted against a wide range of users from all ages to provide a
 <li>A leaderboard based on usernames previous scores.</li>
 <br>
 <li>Animations and movement of the symbols</li>
-
+<br>
 
 # Design
 
@@ -108,13 +108,20 @@ General comment:
 #### HTML
 <li>No errors were found when passing through the official W3C validator.</li>
 <img src="assets/images/html-validation.png">
+<br>
 
 #### CSS
 <li>One inital error was found on first testing. This was simply a mistake of adding ## twice before a hed colour code. The site still worked and this was not picked up until the CSS validation site. It was a simple mistake to correct and on the second attempt no errors were found when passing through the official (Jigsaw) validator.</li>
 <img src="assets/images/css-validation.png">
+<br>
 
 #### JavaScript
-<li></li>
+<li>19 errors were found on first testing however 7 of those were simple overuse of semi-colons and were quickly corrected. 12 errors remain as seen in below screenshot from the official (JSHint) validator. 
+</li>
+<li>Note row 18 error was tested in multiple ways and decided to keep code as is because all attempts at alterations created a bug in the gamePlay function. The game functions as planned regardless of this warning.</li>
+<li>Note all other warning except row 18 are similar "available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." Upon searching on forums for a solution to this error I only came across suggestions to change the settings on VS Code in order to prevent this error message. However instructions found on multiple forums to change JSHint settings on VS Code was not possible as it did not come up in settings search on Gitpod. Due to the fact that the game functions as planned I decided to ignore these warnings.</li>
+<img src= "assets/images/js-validation-screenshot.png">
+<br>
 
 #### LIGHT HOUSE
 <li>Light House test performed with the below result.</li>
@@ -131,12 +138,14 @@ General comment:
  ## Unfixed Bugs
 <ul>
 <li>Still requires further improvement for devices Ipad Pro and Nest Hub responsiveness.</li>
+<li>still has some Javascript warnings as listed above but game functions as planned.</li>
 </ul>
 
 # Technology Used
 
 ## Languages
 <li>HTML, CSS and JavaScript</li>
+<br>
 
 ## Tools and libraries
 <li>https://fonts.google.com/- to download all fonts used</li>

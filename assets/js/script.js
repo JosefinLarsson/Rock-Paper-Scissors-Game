@@ -3,7 +3,7 @@
 //  * and possible choices
 //  */
 
-const buttons = document.getElementsByClassName("control");
+let buttons = document.getElementsByClassName("control");
 const userImage = document.getElementById("user-image");
 const computerImage = document.getElementById("computer-image");
 const resultMessage = document.getElementById("result-message");
@@ -15,7 +15,7 @@ const choices = ["rock", "paper", "scissors"];
 //  */
 
 for (let button of buttons) {
-    button.addEventListener("click",function () {
+    button.addEventListener("click", function () {
         let userChoice = this.getAttribute("data-choice");
         playGame(userChoice);
     });
@@ -36,9 +36,7 @@ function playGame(userChoice) {
     computerImage.src = `assets/images/${choices[computerChoice]}.png`;
     computerImage.alt = choices[computerChoice];
 
-    let result = checkWinner(choices[computerChoice], choices[userChoice]);
-
-    updateScores(result);
+    checkWinner(choices[computerChoice], choices[userChoice]);
 }
     
 
@@ -52,36 +50,29 @@ function checkWinner(computerChoice, userChoice) {
     if (computerChoice === "rock" && userChoice === "paper") {
         resultMessage.textContent = "You win!";
         return;
-    };
+    }
     if (computerChoice === "rock" && userChoice === "scissors") {
         resultMessage.textContent = "You lose!";
         return;
-    };
+    }
     if (computerChoice === "paper" && userChoice === "rock") {
         resultMessage.textContent = "You lose!";
         return;
-    };
+    }
     if (computerChoice === "paper" && userChoice === "scissors") {
         resultMessage.textContent = "You win!";
         return;
-    };
+    }
     if (computerChoice === "scissors" && userChoice === "rock") {
         resultMessage.textContent = "You win!";
         return;
-    };
+    }
     if (computerChoice === "scissors" && userChoice === "paper") {
         resultMessage.textContent = "You lose!";
         return;
-    };
+    }
     if (computerChoice === userChoice) {
         resultMessage.textContent = "Let's call it a tie!";
         return;
     }
 }
-
-
-
-
-
-
-
