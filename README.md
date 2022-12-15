@@ -200,6 +200,7 @@ The live link for this project can be found here - https://josefinlarsson.github
 
 <br>
 <br>
+
 For further information on how to clone or fork the repo in order to create your own version, please see the following information on Githubs website https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop
 
 <br>
@@ -220,17 +221,3 @@ For further information on how to clone or fork the repo in order to create your
 
 ## Media
 <li>The starter image is taken from openphysed.org and simply re-worked with Mac Preview software to remove background as well as cut and make image into three symbols used for gameplay.</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
