@@ -4,14 +4,10 @@
 //  */
 
 const buttons = document.getElementsByClassName("control");
-const userScore = document.getElementById("user-score");
-const computerScore = document.getElementById("computer-score");
 const userImage = document.getElementById("user-image");
 const computerImage = document.getElementById("computer-image");
 const resultMessage = document.getElementById("result-message");
 const choices = ["rock", "paper", "scissors"];
-
-
 
 
 // /**
@@ -30,6 +26,7 @@ for (let button of buttons) {
 //  * The main game function
 //  * accepts one parameter, which is the data-choice value of the selected button
 //  */
+
 function playGame(userChoice) {
     userImage.src = `assets/images/${choices[userChoice]}.png`;
     userImage.alt = choices[userChoice];
@@ -45,13 +42,10 @@ function playGame(userChoice) {
 }
     
 
-
-
 // /**
 //  * The check winner function
 //  * compares all different scenarios and decides and alerts the winner via on screen text
 //  */
-
 
 function checkWinner(computerChoice, userChoice) {
 

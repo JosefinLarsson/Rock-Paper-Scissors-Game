@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: ##EEEEEE;
+    background-color: #eeeeee;
     font-family: 'Nunito', sans-serif;
     color: black;
     text-align: center;
@@ -22,7 +22,6 @@ header {
 
 
 /*------------game area */
-
 
 .game-area {
     width: 75%;
@@ -40,8 +39,8 @@ header {
     margin: 2px;
     width: 80px;
     height: 40px;
-    background-color: #bebebe;;
-    cursor: pointer; /*----------this line of code was borrowed from the Youtube channel developedbyed*/
+    background-color: #bebebe;
+    cursor: pointer; /*----------this exact line of code was taken from the Youtube channel developedbyed*/
 
 }
 
@@ -62,7 +61,7 @@ header {
 }
 
 .computer {
-    background-color: #FAA0A0;
+    background-color: #faa0a0;
     float: right;
     width: 45%;
 }
@@ -70,15 +69,6 @@ header {
 #computer-image {
     width: 75%;
 }
-
-
-
-.scores {}
-
-#user-score {}
-
-#computer-score {}
-
 
 
 /*------------footer */
@@ -93,7 +83,6 @@ header {
     text-align: center;
     padding-top: 2px;
     min-height: 70px;
-
 }
 
 #copyright {
