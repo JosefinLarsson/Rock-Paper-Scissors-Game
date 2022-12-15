@@ -5,7 +5,7 @@ The websites intention is to provide a simple and userfriendly game of chance.
 The website is targeted against a wide range of users from all ages to provide a couple of minutes of simple entertainment.
 
 
-<img src="assets/images/Responsive-device-overview.png">
+<img src="assets/images/am-i-responsive.png">
 <br>
 
 ## Project Goal
@@ -85,21 +85,25 @@ All font is displayed in a basic black colour.</li>
 
 ## Responsive devices
 Tested with Chrome Dev Tools and found to be responsive on the following devices:
+<ul>
 <li>Iphone 12 Pro</li>
 <li>Pixel 5</li>
+<li>Samsung Galaxy S8+</li>
 <li>Samsung Galaxy S20 Ultra</li>
+<li>Surface Pro 7</li>
+<li>Surface Duo</li>
+<li>Galaxy Fold</li>
+<li>Samsung Galaxy A51/71</li>
+<li>Nest Hub</li>
 <li>Nest Hub Max</li>
 <li>Ipad</li>
-<li>Surface Pro 7</li>
-<br>
-
-Found to not be fully responsive on the following devices:
 <li>Ipad Pro</li>
-<li>Nest Hub</li>
+</ul>
+
 <br>
 
 General comment:
-<li>Found to be responsive to dimensions down to 362 x 623</li>
+<li>Found to be responsive to dimensions down to 362 x 658.</li>
 <br>
 
 ## Validator testing
@@ -111,7 +115,7 @@ General comment:
 <br>
 
 #### CSS
-<li>One inital error was found on first testing. This was simply a mistake of adding ## twice before a hed colour code. The site still worked and this was not picked up until the CSS validation site. It was a simple mistake to correct and on the second attempt no errors were found when passing through the official (Jigsaw) validator.</li>
+<li>One inital error was found on first testing. This was simply a mistake of adding ## twice before a hex colour code. The site still worked and this was not picked up until the CSS validation site. It was a simple mistake to correct and on the second attempt no errors were found when passing through the official (Jigsaw) validator.</li>
 <img src="assets/images/css-validation.png">
 <br>
 
@@ -119,7 +123,7 @@ General comment:
 <li>19 errors were found on first testing however 7 of those were simple overuse of semi-colons and were quickly corrected. 12 errors remain as seen in below screenshot from the official (JSHint) validator. 
 </li>
 <li>Note row 18 error was tested in multiple ways and decided to keep code as is because all attempts at alterations created a bug in the gamePlay function. The game functions as planned regardless of this warning.</li>
-<li>Note all other warning except row 18 are similar "available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." Upon searching on forums for a solution to this error I only came across suggestions to change the settings on VS Code in order to prevent this error message. However instructions found on multiple forums to change JSHint settings on VS Code was not possible as it did not come up in settings search on Gitpod. Due to the fact that the game functions as planned I decided to ignore these warnings.</li>
+<li>Note all other warning except row 18 are similar "available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." Upon searching on forums for a solution to this error I only came across suggestions to change the settings on VS Code in order to prevent this error message. However instructions found on multiple forums to change JSHint settings on VS Code was not possible to follow as it did not come up in settings search on Gitpod. Due to the fact that the game functions as planned I decided to ignore these warnings.</li>
 <img src= "assets/images/js-validation-screenshot.png">
 <br>
 
@@ -131,15 +135,14 @@ General comment:
 ## Fixed Bugs
  <ul>
  <li>Repaired styling errors</li>
- <li>Repaired missing closing tags</li>
- <li>Improved website responsiveness to different screen resolutions.</li>
+ <li>Repaired overuse of semi-colons in javaScript</li>
+ <li>Improved website responsiveness to different screen resolutions by adding media queries.</li>
  </ul>
 
  ## Unfixed Bugs
-<ul>
-<li>Still requires further improvement for devices Ipad Pro and Nest Hub responsiveness.</li>
 <li>still has some Javascript warnings as listed above but game functions as planned.</li>
-</ul>
+
+<br>
 
 # Technology Used
 
@@ -152,7 +155,8 @@ General comment:
 <li>https://developer.chrome.com/docs/devtools/- for quick testing and live preview adjustments and trouble shooting</li>
 <li>https://gitpod.io - to create and host the website.</li>
 <li>https://github.com- to deploy the website.</li>
-<li>https://ui.dev/amiresponsive- to create the image displaying the homepage on multiple devices.</li>
+<li>https://amiresponsive.co.uk- to create the image displaying the homepage on multiple devices.</li>
+<li>Mac Preview program to alter image by removing background and making simple cut outs.</li>
 <br>
 
 # Deployment
@@ -174,7 +178,7 @@ At the top of the page your live link will be made available.
 
 <br>
 
-The live link for this project can be found here - https://josefinlarsson.github.io/frida-kahlo/index.html
+The live link for this project can be found here - https://josefinlarsson.github.io/Rock-Paper-Scissors-Game/
 
 
 # Credits
@@ -188,8 +192,7 @@ The live link for this project can be found here - https://josefinlarsson.github
  
 
 ## Content
-<li>The text content is written by the web developer and not copied.
-The game idea is an existing classic game played both online as well as offline.</li>
+<li>The game idea is an existing classic game played both online as well as offline but all text and code is written by the developer.</li>
 
 ## Media
 <li>The starter image is taken from openphysed.org and simply re-worked with Mac Preview software to remove background as well as cut and make image into three symbols used for gameplay.</li>

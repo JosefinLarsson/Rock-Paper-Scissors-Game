@@ -88,3 +88,23 @@ header {
 #copyright {
     font-size: small;
 }
+
+
+/* Media queries */
+/* For medium screens size from 900px wide and down */
+
+@media screen and (max-width: 900px) {
+
+h1 {
+    font-size: 100%;
+}
+
+h2 {
+    font-size: 100%;
+}
+
+.control {
+    width: 95%;
+    height: 95%;
+}
+}
