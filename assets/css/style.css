@@ -1,4 +1,5 @@
 /* --------- Global style */
+/* code from Code Institute Rock Paper Scissors game with small tweaks*/
 
 html {
     min-height: 100%;
@@ -22,6 +23,7 @@ header {
 
 
 /*------------game area */
+/* code from Code Institute Rock Paper Scissors game with small tweaks*/
 
 .game-area {
     width: 75%;
@@ -40,7 +42,7 @@ header {
     width: 80px;
     height: 40px;
     background-color: #bebebe;
-    cursor: pointer; /*----------this exact line of code was taken from the Youtube channel developedbyed*/
+    cursor: pointer; /* this line of code was taken from the Youtube channel developedbyed*/
 
 }
 
@@ -72,7 +74,7 @@ header {
 
 
 /*------------footer */
-
+/* code from Code Institute Rock Paper Scissors Game with small tweaks*/
 #footer {
     position: absolute;
     bottom: 0;
@@ -92,6 +94,7 @@ header {
 
 /* Media queries */
 /* For medium screens size from 900px wide and down */
+/* code inspired by Code Institute Love Running Project but re-written for this site*/
 
 @media screen and (max-width: 900px) {
 

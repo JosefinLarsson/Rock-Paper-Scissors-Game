@@ -12,6 +12,7 @@ const choices = ["rock", "paper", "scissors"];
 
 // /**
 //  * Add event listener to buttons
+//  * code from Code Institute Rock, paper, scissors game
 //  */
 
 for (let button of buttons) {
@@ -25,6 +26,7 @@ for (let button of buttons) {
 // /**
 //  * The main game function
 //  * accepts one parameter, which is the data-choice value of the selected button
+//  * code from Code Institute Rock, paper, scissors game with small tweaks for this site
 //  */
 
 function playGame(userChoice) {
@@ -43,6 +45,7 @@ function playGame(userChoice) {
 // /**
 //  * The check winner function
 //  * compares all different scenarios and decides and alerts the winner via on screen text
+//  */ code combination of Code Institute lesson plan and inspiration from the Youtube channel developedbyed
 //  */
 
 function checkWinner(computerChoice, userChoice) {
